@@ -1,0 +1,14 @@
+ExitCode=0
+TotalTimeTaken=7.534
+TotalFiles=69
+TotalFolders=77
+TotalJavaFiles=16
+TotalJsFiles=11
+TotalJsonFiles=2
+TotalCssFiles=7
+TotalXmlFiles=7
+TotalPropertiesFiles=1
+Tue Oct 6 12:07:09 UTC 2015 : Code Factory Process Started for instructions repotestScheduler.cf
+Tue Oct 6 12:07:24 UTC 2015 : Code Factory : Total Files created : 69 | Total Time Taken : 7.534 in seconds
+Tue Oct 6 12:07:24 UTC 2015 : Code Factory : Process Completed Blue Print instructions
+Tue Oct  6 12:07:24 UTC 2015 : Code Factory : Exited with the code 0

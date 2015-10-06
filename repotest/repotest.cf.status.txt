@@ -1,0 +1,14 @@
+ExitCode=0
+TotalTimeTaken=11.951
+TotalFiles=10763
+TotalFolders=5306
+TotalJavaFiles=14
+TotalJsFiles=3447
+TotalJsonFiles=246
+TotalCssFiles=620
+TotalXmlFiles=251
+TotalPropertiesFiles=60
+Tue Oct 6 12:06:33 UTC 2015 : Code Factory Process Started for instructions repotest.cf
+Tue Oct 6 12:07:00 UTC 2015 : Code Factory : Total Files created : 10763 | Total Time Taken : 11.951 in seconds
+Tue Oct 6 12:06:58 UTC 2015 : Code Factory : Process Completed Blue Print instructions
+Tue Oct  6 12:07:00 UTC 2015 : Code Factory : Exited with the code 0

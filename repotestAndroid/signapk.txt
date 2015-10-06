@@ -1,0 +1,10 @@
+
+keytool -genkey -v -keystore algoKeyStore.keystore -alias algoKey -keyalg RSA -keysize 2048 -validity 10000
+
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore algoKeyStore.keystore /home/nishant/Desktop/AndroidApp/antapks/AppliFire12-debug-unaligned.apk algoKey
+
+
+jarsigner -verify -verbose -certs /home/nishant/Desktop/AndroidApp/antapks/AppliFire12-debug-unaligned.apk
+
+
+/home/nishant/Android/Sdk/build-tools/21.1.2/zipalign -v 4 /home/nishant/Desktop/AndroidApp/antapks/AppliFire12-debug-unaligned.apk AppliFire12.apk

@@ -1,0 +1,8 @@
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2015-10-06 12:05:23
+ development mode --enabled true 
+project --topLevelPackage repotest --projectName repotest
+quit
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2015-10-06 12:05:25
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2015-10-06 12:05:25
+// script --file repotest.cf
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2015-10-06 12:05:25

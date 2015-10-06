@@ -1,0 +1,13 @@
+
+
+
+
+ development mode --enabled true 
+
+
+
+// Project Creation 
+
+project --topLevelPackage repotest --projectName repotest
+
+quit

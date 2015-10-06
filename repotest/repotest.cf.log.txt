@@ -1,0 +1,327 @@
+Oct 06, 2015 12:06:35 PM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+java.io.IOException: Cannot run program "sh": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at java.lang.Runtime.exec(Runtime.java:617)
+	at java.lang.Runtime.exec(Runtime.java:485)
+	at jline.UnixTerminal.exec(UnixTerminal.java:292)
+	at jline.UnixTerminal.exec(UnixTerminal.java:277)
+	at jline.UnixTerminal.stty(UnixTerminal.java:268)
+	at jline.UnixTerminal.initializeTerminal(UnixTerminal.java:71)
+	at jline.Terminal.setupTerminal(Terminal.java:75)
+	at jline.Terminal.getTerminal(Terminal.java:26)
+	at jline.ConsoleReader.<init>(ConsoleReader.java:174)
+	at jline.ConsoleReader.<init>(ConsoleReader.java:169)
+	at jline.ConsoleReader.<init>(ConsoleReader.java:157)
+	at org.springframework.roo.shell.jline.JLineShell.run(JLineShell.java:453)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:187)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 13 more
+[7m[0m[32m    ____  ____  ____  
+   / __ \/ __ \/ __ \ 
+  / /_/ / / / / / / / 
+ / _, _/ /_/ / /_/ /  
+/_/ |_|\____/\____/    1.2.5.RELEASE [rev 8341dc2]
+
+
+[0m]0;Spring Roo 1.2.5.RELEASE [rev 8341dc2][7m[0m[32mWelcome to Spring Roo. For assistance press TAB or type "hint" then hit ENTER.
+[0m[7m[0m[31m                                                                        
+At this time you have not authorized Spring Roo to download an index of
+available add-ons. This will reduce Spring Roo features available to you.
+Please type 'download status' and press ENTER for further information.
+
+[0m[s[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[7m[0m
+[7m[0m development mode --enabled true 
+[7m[0m[32mDevelopment mode set to true
+[0m[7m[0m
+[7m[0m
+[7m[0m
+[7m[0mbuzzorproject --topLevelPackage repotest --isRuleEngine true --projectName repotest --sourceCodeLocation /home/isha/applifire/appConfigTemplate/appSourceCode/ --tomcatDeployLocation http://localhost:8080 --tomcatAbsolutePath /Softwares/tomcat/webapps ---userName repotest --password repotest --schema jdbc:mysql://localhost:3306/information_schema --solrhome /home/applifire/workspace/PYNERPYCO6TUBNIUQRJEG/repotestSolr-4.9.0 --isSpringBatch false
+[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[7m[0mDeleted SRC_MAIN_RESOURCES/log4j.properties
+[7m[0mDeleted SPRING_CONFIG_ROOT
+[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[1;54H[7mPlease wait - still loading[0m[u[s[1;54H[K[uParent created Successfully Inside method
+Parent created Successfully
+
+MID:org.springframework.roo.classpath.PhysicalTypeIdentifier#SRC_MAIN_JAVA?repotest.app.config.WebInitializer
+[7m[0mf5bb624 Updated SRC_MAIN_JAVA/repotest/app/config/WebInitializer.java
+item1 display-name
+item2 #text
+repotest.app.config.WebConfigExtended
+org.springframework.roo.classpath.details.DefaultClassOrInterfaceTypeDetails@139c75e9[name=repotest.app.config.WebConfigExtended,modifier=public,physicalTypeCategory=CLASS,declaredByMetadataId=MID:org.springframework.roo.classpath.PhysicalTypeIdentifier#SRC_MAIN_JAVA?repotest.app.config.WebConfigExtended,declaredConstructors=[],declaredFields=[],declaredMethods=[],enumConstants=[],superclass=<null>,extendsTypes=[com.athena.config.server.WebConfig],implementsTypes=[],annotations=[org.springframework.roo.classpath.details.annotations.DefaultAnnotationMetadata@c5c2bb3[annotationType=org.springframework.context.annotation.Configuration,attributes=[]], org.springframework.roo.classpath.details.annotations.DefaultAnnotationMetadata@7738fb1b[annotationType=org.springframework.transaction.annotation.EnableTransactionManagement,attributes=[]]],customData={}]
+[7m[0m241d144 Updated SRC_MAIN_JAVA/repotest/app/config/WebConfigExtended.java
+/home/applifire/workspace/repotest
+[SRC_TEST_JAVA, SRC_MAIN_JAVA]
+[7m[0mb54a333 Updated ROOT/pom.xml [[36mupdated project type[0m to war; [36mremoved property[0m java.version; [36madded property[0m 'tomcatAbsolutePath' = '/Softwares/tomcat/webapps'; [36mremoved dependency[0m org.springframework.roo:org.springframework.roo.annotations:${roo.version}; [36madded property[0m 'java.version' = '1.7'; [36madded dependency[0m athena:athena-config:1.0; [36madded dependency[0m spartan:spartan-shield:1.0; [36madded dependency[0m spartan:spartan-sprinkler:1.0; [36madded dependency[0m spartan:spartan-healthmeter:1.0; [36madded dependency[0m athena:athena-annotation:1.0; [36madded dependency[0m athena:athena-cloud:1.0; [36madded dependency[0m athena:athena-core:1.0; [36madded dependency[0m athena:athena-data-endpoint-orchestration:1.0; [36madded dependency[0m athena:athena-framework:1.0; [36madded dependency[0m athena:athena-query:1.0; [36madded dependency[0m athena:athena-report:1.0; [36madded dependency[0m athena:athena-rule-engine:1.0; [36madded dependency[0m athena:athena-scheduler:1.0; [36madded dependency[0m athena:athena-search-engine:1.0; [36madded dependency[0m com.google.code.gson:gson:2.3.1; [36madded dependency[0m org.eclipse.emf:commonj-sdo:2.1.0; [36madded dependency[0m commons-dbcp:commons-dbcp:1.4; [36madded dependency[0m commons-pool:commons-pool:1.5.4; [36madded dependency[0m org.eclipse.persistence:eclipselink:2.5.1; [36madded dependency[0m org.eclipse.persistence:javax.persistence:2.0.0; [36madded dependency[0m org.springframework:spring-web:${spring.version4}; [36madded dependency[0m org.springframework:spring-webmvc:${spring.version4}; [36madded dependency[0m org.springframework:spring-jdbc:4.1.1.RELEASE; [36madded dependency[0m org.springframework:spring-expression:4.1.1.RELEASE; [36madded dependency[0m org.springframework:spring-beans:${spring.version4}; [36madded dependency[0m org.springframework:spring-tx:${spring.version4}; [36madded dependency[0m org.apache.bval:bval-jsr303:0.5; [36madded dependency[0m org.apache.bval:bval-core:0.5; [36madded dependency[0m org.apache.xmlbeans:xmlbeans:2.3.0; [36madded dependency[0m org.codehaus.jackson:jackson-mapper-asl:1.9.13; [36madded dependency[0m org.codehaus.jackson:jackson-core-asl:1.9.13; [36madded dependency[0m commons-fileupload:commons-fileupload:1.2; [36madded dependency[0m org.springframework:spring-context:${spring.version4}; [36mremoved dependency[0m org.springframework:spring-context:${spring.version}; [36madded dependency[0m com.fasterxml.jackson.core:jackson-annotations:2.2.3; [36madded dependency[0m com.fasterxml.jackson.core:jackson-core:2.2.3; [36madded dependency[0m com.fasterxml.jackson.core:jackson-databind:2.2.3; [36madded dependency[0m javax.servlet:javax.servlet-api:3.1.0; [36madded dependency[0m org.springframework:spring-orm:4.1.1.RELEASE; [36madded dependency[0m org.springframework:spring-core:${spring.version4}; [36mremoved dependency[0m org.springframework:spring-core:${spring.version}; [36madded dependency[0m org.springframework.boot:spring-boot-starter-log4j:1.1.9.RELEASE; [36madded dependency[0m org.springframework.boot:spring-boot-starter-actuator:1.1.9.RELEASE; [36mremoved dependency[0m javax.servlet:servlet-api:2.5; [36madded dependency[0m org.springframework.security:spring-security-ldap:3.2.5.RELEASE; [36madded dependency[0m org.springframework.security:spring-security-config:3.2.5.RELEASE; [36madded dependency[0m commons-codec:commons-codec:1.9; [36madded dependency[0m org.springframework.security:spring-security-web:3.2.5.RELEASE; [36madded dependency[0m org.springframework.boot:spring-boot-autoconfigure:1.1.7.RELEASE; [36madded dependency[0m org.springframework.boot:spring-boot-dependency-tools:1.1.7.RELEASE; [36madded dependency[0m org.springframework.boot:spring-boot-loader:1.1.7.RELEASE; [36madded dependency[0m org.springframework.boot:spring-boot-loader-tools:1.1.7.RELEASE; [36madded dependency[0m org.springframework.boot:spring-boot-starter:1.1.7.RELEASE; [36madded dependency[0m javax.validation:validation-api:1.0.0.GA; [36madded repository[0m http://maven.nuxeo.org/nexus/content/repositories/public/; [36mremoved repository[0m http://spring-roo-repository.springsource.org/release; [36mremoved repository[0m http://spring-roo-repository.springsource.org/release; [36mremoved plugin[0m org.apache.maven.plugins:maven-idea-plugin:2.2; [36madded dependency[0m org.antlr:antlr-runtime:3.5; [36madded dependency[0m org.drools:drools-compiler:6.0.1.Final; [36madded dependency[0m org.drools:drools-core:6.0.1.Final; [36madded dependency[0m org.drools:drools-examples:6.0.1.Final; [36madded dependency[0m org.hamcrest:hamcrest-core:1.3; [36madded dependency[0m org.kie:kie-api:6.0.1.Final; [36madded dependency[0m org.kie:kie-internal:6.0.1.Final; [36madded dependency[0m ch.qos.logback:logback-classic:1.0.9; [36madded dependency[0m ch.qos.logback:logback-core:1.0.9; [36madded dependency[0m com.miglayout:miglayout:3.7.4; [36madded dependency[0m org.mvel:mvel2:2.1.8.Final; [36madded dependency[0m org.json:json:20090211; [36madded dependency[0m atg.taglib.json:json-taglib:0.4.1; [36madded dependency[0m javax.activation:activation:1.1; [36madded dependency[0m commons-collections:commons-collections:3.2.1; [36madded dependency[0m org.codehaus.groovy:groovy-all:2.3.6; [36madded dependency[0m com.google.guava:guava:14.0.1; [36madded dependency[0m com.carrotsearch:hppc:0.5.2; [36madded dependency[0m org.apache.httpcomponents:httpclient:4.3.1; [36madded dependency[0m org.apache.httpcomponents:httpcore:4.3; [36madded dependency[0m org.apache.httpcomponents:httpmime:4.4; [36madded dependency[0m net.sf.jpam:jpam:1.1; [36madded dependency[0m org.apache.lucene:lucene-analyzers-common:4.9.0; [36madded dependency[0m org.apache.lucene:lucene-codecs:4.9.0; [36madded dependency[0m org.apache.lucene:lucene-core:4.9.0; [36madded dependency[0m org.apache.lucene:lucene-queryparser:4.9.0; [36madded dependency[0m org.apache.lucene:lucene-grouping:5.0.0; [36madded dependency[0m org.apache.lucene:lucene-highlighter:4.9.0; [36madded dependency[0m org.apache.lucene:lucene-join:4.9.0; [36madded dependency[0m org.apache.lucene:lucene-memory:4.9.0; [36madded dependency[0m org.apache.lucene:lucene-misc:5.0.0; [36madded dependency[0m org.apache.lucene:lucene-queries:4.9.0; [36madded dependency[0m org.apache.lucene:lucene-spatial:4.9.0; [36madded dependency[0m org.apache.lucene:lucene-suggest:4.9.0; [36madded dependency[0m javax.mail:mail:1.4; [36madded dependency[0m org.apache.mina:mina-core:2.0.7; [36madded dependency[0m org.noggit:noggit:0.5; [36madded dependency[0m commons-httpclient:commons-httpclient:3.1; [36madded dependency[0m org.apache.solr:solr-solrj:4.9.0; [36madded dependency[0m com.spatial4j:spatial4j:0.4.1; [36madded dependency[0m org.apache.sshd:sshd-core:0.11.0; [36madded dependency[0m org.apache.sshd:sshd-pam:0.11.0; [36madded dependency[0m org.apache.velocity:velocity:1.7; [36madded dependency[0m org.apache.velocity:velocity-tools:2.0-beta3; [36madded dependency[0m org.apache.zookeeper:zookeeper:3.4.6; [36madded dependency[0m org.apache.poi:poi-scratchpad:3.10-beta2; [36madded dependency[0m org.apache.poi:poi:3.10-beta2; [36madded dependency[0m org.apache.poi:poi-ooxml:3.10-beta2; [36madded dependency[0m org.apache.poi:poi-ooxml-schemas:3.10-beta2; [36madded dependency[0m google:google-voice:1.14; [36madded dependency[0m gtranslateapi:gtranslateapi:1.0; [36madded dependency[0m athena:athena-search-core:1.0; [36madded dependency[0m joda-time:joda-time:2.2; [36madded dependency[0m org.apache.lucene:lucene-analyzers-kuromoji:4.9.0; [36madded dependency[0m org.apache.lucene:lucene-analyzers-phonetic:4.9.0; [36madded dependency[0m org.apache.lucene:lucene-expressions:4.9.0; [36madded dependency[0m applifire:org-restlet-ext-servlet:2.1.1; [36madded dependency[0m applifire:org-restlet:2.1.1; [36madded dependency[0m mysql:mysql-connector-java:5.1.31; [36mremoved dependency[0m log4j:log4j:1.2.17; [36mremoved plugin[0m org.apache.maven.plugins:maven-eclipse-plugin:2.7; [36mremoved plugin[0m org.apache.tomcat.maven:tomcat7-maven-plugin:2.2; [36madded plugin[0m org.apache.tomcat.maven:tomcat7-maven-plugin:2.2; [36madded plugin[0m org.codehaus.mojo:sql-maven-plugin:1.5; [36madded plugin[0m org.apache.maven.plugins:maven-antrun-plugin:1.8; [36mremoved plugin[0m org.codehaus.mojo:aspectj-maven-plugin:1.4; [36mremoved plugin[0m org.mortbay.jetty:jetty-maven-plugin:8.1.4.v20120524;]
+[7m[0md3d9e8f Updated SRC_MAIN_WEBAPP/WEB-INF/web.xml
+[7m[0m
+[7m[0mentityManagerFactoryBean add property --name packagesToScan --value repotest.app,com.athena,com.spartan
+child appended Successfully
+[7m[0m920849c Updated ROOT/src/main/resources/springConfig.xml [[36mupdated property[0m 'property' to '']
+[7m[0m
+[7m[0mPersistent change persistentUnitName --name repotest
+child appended Successfully
+[7m[0m7de4f0a Updated ROOT/src/main/resources/springConfig.xml [[36mupdated property[0m 'property' to '']
+[7m[0mc45770e Updated ROOT/src/main/resources/META-INF/persistence.xml [[36mupdated PersistentUnit Name[0m ']
+[7m[0m
+[7m[0mPersistent add property --name eclipselink.dialect --value org.eclipse.persistence.platform.database.MySQLPlatform
+[7m[0me036dea Updated ROOT/src/main/resources/META-INF/persistence.xml [[36mupdated property[0m 'property' to '']
+[7m[0m
+[7m[0mPersistent add property --name javax.persistence.jdbc.url --value jdbc:mysql://localhost:3306/repotest
+[7m[0m6ae9996 Updated ROOT/src/main/resources/META-INF/persistence.xml [[36mupdated property[0m 'property' to '']
+[7m[0m
+[7m[0mPersistent add property --name javax.persistence.jdbc.user --value repotest
+[7m[0m3f79712 Updated ROOT/src/main/resources/META-INF/persistence.xml [[36mupdated property[0m 'property' to '']
+[7m[0m
+[7m[0mPersistent add property --name javax.persistence.jdbc.password --value repotest
+[7m[0ma6bb6ac Updated ROOT/src/main/resources/META-INF/persistence.xml [[36mupdated property[0m 'property' to '']
+[7m[0m
+[7m[0mPersistent add property --name javax.persistence.jdbc.driver --value com.mysql.jdbc.Driver
+[7m[0m53d04b4 Updated ROOT/src/main/resources/META-INF/persistence.xml [[36mupdated property[0m 'property' to '']
+[7m[0m
+[7m[0m// Property File Configuration 
+[7m[0m
+[7m[0mbuzzproperties BootProperties --PropertyFileName springBoot.properties --key endpoints.jmx.domain --value repotest
+Property Added Successfully
+[7m[0m
+[7m[0mbuzzproperties BootProperties --PropertyFileName springBoot.properties --key endpoints.jmx.unique --value true
+Property Added Successfully
+[7m[0m
+[7m[0mbuzzproperties BootProperties --PropertyFileName springBoot.properties --key endpoints.shutdown.enabled --value true
+Property Added Successfully
+[7m[0m
+[7m[0mbuzzproperties BootProperties --PropertyFileName springBoot.properties --key endpoints.jmx.repotest --value true
+Property Added Successfully
+[7m[0m
+[7m[0mbuzzproperties BootProperties --PropertyFileName springBoot.properties --key endpoints.dump.id --value repotestdump
+Property Added Successfully
+[7m[0m
+[7m[0mbuzzproperties BootProperties --PropertyFileName springBoot.properties --key endpoints.metrics.id --value repotestmetrics
+Property Added Successfully
+[7m[0m
+[7m[0mbuzzproperties BootProperties --PropertyFileName springBoot.properties --key endpoints.shutdown.id --value repotestshutdown
+Property Added Successfully
+[7m[0m
+[7m[0mbuzzproperties BootProperties --PropertyFileName springBoot.properties --key endpoints.trace.id --value repotesttrace
+Property Added Successfully
+[7m[0mmethodAnnotation create --type ~.app.server.businessservice.aspect.BusinessAspect --method_name beforeSaveAdvice --valueType string --annotation org.aspectj.lang.annotation.Before --key value.org.aspectj.lang.annotation.Before --value "execution(* repotest.app.server.repository.*Impl.save(..))"
+[7m[0m22ef8f2 Updated SRC_MAIN_JAVA/repotest/app/server/businessservice/aspect/BusinessAspect.java
+Inside String Condition
+added
+org.springframework.roo.classpath.details.MethodMetadataBuilder@115c79f7[methodName=beforeSaveAdvice,parameterTypes=[org.aspectj.lang.JoinPoint]]
+[7m[0m7f67c7c Updated SRC_MAIN_JAVA/repotest/app/server/businessservice/aspect/BusinessAspect.java
+[7m[0mmethodAnnotation create --type ~.app.server.service.aspect.ServiceAspect --method_name saveOperation --valueType string --annotation org.aspectj.lang.annotation.Pointcut --key value.org.aspectj.lang.annotation.Pointcut --value "execution(* repotest.app.server.service..save*(..))"
+[7m[0mb09d853 Updated SRC_MAIN_JAVA/repotest/app/server/service/aspect/ServiceAspect.java
+Inside String Condition
+added
+org.springframework.roo.classpath.details.MethodMetadataBuilder@74a4ce4a[methodName=saveOperation,parameterTypes=[]]
+[7m[0mf9176cb Updated SRC_MAIN_JAVA/repotest/app/server/service/aspect/ServiceAspect.java
+[7m[0mmethodAnnotation create --type ~.app.server.service.aspect.ServiceAspect --method_name deleteOperation --valueType string --annotation org.aspectj.lang.annotation.Pointcut --key value.org.aspectj.lang.annotation.Pointcut --value "execution(* repotest.app.server.service..delete*(..))"
+[7m[0m24d68fd Updated SRC_MAIN_JAVA/repotest/app/server/service/aspect/ServiceAspect.java
+Inside String Condition
+added
+org.springframework.roo.classpath.details.MethodMetadataBuilder@d039a73[methodName=deleteOperation,parameterTypes=[]]
+[7m[0m22060c0 Updated SRC_MAIN_JAVA/repotest/app/server/service/aspect/ServiceAspect.java
+[7m[0mmethodAnnotation create --type ~.app.server.service.aspect.ServiceAspect --method_name updateOperation --valueType string --annotation org.aspectj.lang.annotation.Pointcut --key value.org.aspectj.lang.annotation.Pointcut --value "execution(* repotest.app.server.service..update*(..))"
+[7m[0m9debc7c Updated SRC_MAIN_JAVA/repotest/app/server/service/aspect/ServiceAspect.java
+Inside String Condition
+added
+org.springframework.roo.classpath.details.MethodMetadataBuilder@1638e0fd[methodName=updateOperation,parameterTypes=[]]
+[7m[0mc241281 Updated SRC_MAIN_JAVA/repotest/app/server/service/aspect/ServiceAspect.java
+[7m[0mmethodAnnotation create --type ~.app.server.service.aspect.ServiceAspect --method_name allOperation --valueType string --annotation org.aspectj.lang.annotation.Pointcut --key value.org.aspectj.lang.annotation.Pointcut --value "execution(* repotest.app.server.service..*..*(..)) && !within(repotest.app.server.service.sessionmgt.SessionDataMgtService+)"
+[7m[0m025c333 Updated SRC_MAIN_JAVA/repotest/app/server/service/aspect/ServiceAspect.java
+Inside String Condition
+added
+org.springframework.roo.classpath.details.MethodMetadataBuilder@4141451[methodName=allOperation,parameterTypes=[]]
+[7m[0m59f6363 Updated SRC_MAIN_JAVA/repotest/app/server/service/aspect/ServiceAspect.java
+[7m[0mmethodAnnotation create --type ~.app.server.service.aspect.ServiceAspect --method_name findOperation --valueType string --annotation org.aspectj.lang.annotation.Pointcut --key value.org.aspectj.lang.annotation.Pointcut --value "execution(* repotest.app.server.service..find*(..))"
+[7m[0mdfa5c23 Updated SRC_MAIN_JAVA/repotest/app/server/service/aspect/ServiceAspect.java
+Inside String Condition
+added
+org.springframework.roo.classpath.details.MethodMetadataBuilder@44b9b19a[methodName=findOperation,parameterTypes=[]]
+[7m[0mab94e44 Updated SRC_MAIN_JAVA/repotest/app/server/service/aspect/ServiceAspect.java
+[7m[0mmethodAnnotation create --type ~.app.server.service.aspect.ServiceAspect --method_name getOperation --valueType string --annotation org.aspectj.lang.annotation.Pointcut --key value.org.aspectj.lang.annotation.Pointcut --value "execution(* repotest.app.server.service..get*(..))"
+[7m[0mb7b300e Updated SRC_MAIN_JAVA/repotest/app/server/service/aspect/ServiceAspect.java
+Inside String Condition
+added
+org.springframework.roo.classpath.details.MethodMetadataBuilder@920693f[methodName=getOperation,parameterTypes=[]]
+[7m[0m9517fde Updated SRC_MAIN_JAVA/repotest/app/server/service/aspect/ServiceAspect.java
+[7m[0mmethodAnnotation create --type ~.app.server.repository.aspect.RepositoryAspect --method_name saveOperation --valueType string --annotation org.aspectj.lang.annotation.Pointcut --key value.org.aspectj.lang.annotation.Pointcut --value "execution(* repotest.app.server.repository..save*(..))"
+[7m[0m4d7bfdd Updated SRC_MAIN_JAVA/repotest/app/server/repository/aspect/RepositoryAspect.java
+Inside String Condition
+added
+org.springframework.roo.classpath.details.MethodMetadataBuilder@741179fc[methodName=saveOperation,parameterTypes=[]]
+[7m[0m1ffa0d9 Updated SRC_MAIN_JAVA/repotest/app/server/repository/aspect/RepositoryAspect.java
+[7m[0mmethodAnnotation create --type ~.app.server.repository.aspect.RepositoryAspect --method_name updateOperation --valueType string --annotation org.aspectj.lang.annotation.Pointcut --key value.org.aspectj.lang.annotation.Pointcut --value "execution(* repotest.app.server.repository..update*(..))"
+[7m[0me556144 Updated SRC_MAIN_JAVA/repotest/app/server/repository/aspect/RepositoryAspect.java
+Inside String Condition
+added
+org.springframework.roo.classpath.details.MethodMetadataBuilder@5ea9b0fb[methodName=updateOperation,parameterTypes=[]]
+[7m[0m5651125 Updated SRC_MAIN_JAVA/repotest/app/server/repository/aspect/RepositoryAspect.java
+[7m[0mmethodAnnotation create --type ~.app.server.repository.aspect.RepositoryAspect --method_name deleteOperation --valueType string --annotation org.aspectj.lang.annotation.Pointcut --key value.org.aspectj.lang.annotation.Pointcut --value "execution(* repotest.app.server.repository..delete*(..))"
+[7m[0m6617d1d Updated SRC_MAIN_JAVA/repotest/app/server/repository/aspect/RepositoryAspect.java
+Inside String Condition
+added
+org.springframework.roo.classpath.details.MethodMetadataBuilder@4a6a0a1e[methodName=deleteOperation,parameterTypes=[]]
+[7m[0mfebefa8 Updated SRC_MAIN_JAVA/repotest/app/server/repository/aspect/RepositoryAspect.java
+[7m[0mmethodAnnotation create --type ~.app.server.repository.aspect.RepositoryAspect --method_name findOperation --valueType string --annotation org.aspectj.lang.annotation.Pointcut --key value.org.aspectj.lang.annotation.Pointcut --value "execution(* repotest.app.server.repository..find*(..))"
+[7m[0m89892a0 Updated SRC_MAIN_JAVA/repotest/app/server/repository/aspect/RepositoryAspect.java
+Inside String Condition
+added
+org.springframework.roo.classpath.details.MethodMetadataBuilder@b8024ed[methodName=findOperation,parameterTypes=[]]
+[7m[0m8ea7446 Updated SRC_MAIN_JAVA/repotest/app/server/repository/aspect/RepositoryAspect.java
+[7m[0mmethodAnnotation create --type ~.app.server.repository.aspect.RepositoryAspect --method_name getOperation --valueType string --annotation org.aspectj.lang.annotation.Pointcut --key value.org.aspectj.lang.annotation.Pointcut --value "execution(* repotest.app.server.repository..get*(..))"
+[7m[0mba62c5f Updated SRC_MAIN_JAVA/repotest/app/server/repository/aspect/RepositoryAspect.java
+Inside String Condition
+added
+org.springframework.roo.classpath.details.MethodMetadataBuilder@465bb1fd[methodName=getOperation,parameterTypes=[]]
+[7m[0mb8e173d Updated SRC_MAIN_JAVA/repotest/app/server/repository/aspect/RepositoryAspect.java
+[7m[0mmethodAnnotation create --type ~.app.server.repository.aspect.RepositoryAspect --method_name allOperation --valueType string --annotation org.aspectj.lang.annotation.Pointcut --key value.org.aspectj.lang.annotation.Pointcut --value "execution(* repotest.app.server.repository..*(..))"
+[7m[0m562ee2e Updated SRC_MAIN_JAVA/repotest/app/server/repository/aspect/RepositoryAspect.java
+Inside String Condition
+added
+org.springframework.roo.classpath.details.MethodMetadataBuilder@fcb9f06[methodName=allOperation,parameterTypes=[]]
+[7m[0m8995858 Updated SRC_MAIN_JAVA/repotest/app/server/repository/aspect/RepositoryAspect.java
+[7m[0mmethodAnnotation create --type ~.app.server.businessservice.aspect.BusinessAspect --method_name afterAllMethodCalls --valueType string --annotation org.aspectj.lang.annotation.After --key value.org.aspectj.lang.annotation.After --value "execution(* repotest.app.server.businessservice..*(..))"
+[7m[0m1619b1e Updated SRC_MAIN_JAVA/repotest/app/server/businessservice/aspect/BusinessAspect.java
+Inside String Condition
+added
+org.springframework.roo.classpath.details.MethodMetadataBuilder@6b134d9b[methodName=afterAllMethodCalls,parameterTypes=[org.aspectj.lang.JoinPoint]]
+[7m[0m4565739 Updated SRC_MAIN_JAVA/repotest/app/server/businessservice/aspect/BusinessAspect.java
+[7m[0m
+[7m[0mbuzzorclass add --className ~.app.shared.EntityAudit --implements java.io.Serializable --value_type  --annotation javax.persistence.Embeddable
+java
+[7m[0mCreated SRC_MAIN_JAVA/repotest/app/shared
+[7m[0m6b67547 Created SRC_MAIN_JAVA/repotest/app/shared/EntityAudit.java
+[7m[0m
+[7m[0mbuzzorclass add --className ~.app.shared.SystemInfo --implements java.io.Serializable --value_type  --annotation javax.persistence.Embeddable
+java
+[7m[0m3bfcd35 Created SRC_MAIN_JAVA/repotest/app/shared/SystemInfo.java
+[7m[0m
+[7m[0mbuzzorfield create --type ~.app.shared.EntityAudit --field_name createdBy --dataType java.lang.String --Modifier private --annotation javax.persistence.Column --key name.javax.persistence.Column,updatable.javax.persistence.Column --value createdBy,false.javax.persistence.Column --valueType String,boolean
+In first Condition
+keys{i}name.javax.persistence.Column
+keys{i}updatable.javax.persistence.Column
+[7m[0m8b77085 Updated SRC_MAIN_JAVA/repotest/app/shared/EntityAudit.java
+[7m[0m
+[7m[0mfieldAnnotation create --type ~.app.shared.EntityAudit --field_name createdBy --valueType integer,integer --annotation javax.validation.constraints.Size --key min.javax.validation.constraints.Size,max.javax.validation.constraints.Size --value 0#cfg#64
+Inside Integer Condition
+Inside Integer Condition
+org.springframework.roo.classpath.details.annotations.AnnotationMetadataBuilder@70f59023
+[7m[0mc0966c2 Updated SRC_MAIN_JAVA/repotest/app/shared/EntityAudit.java
+[7m[0mfieldAnnotation create --type ~.app.shared.EntityAudit --field_name createdBy --annotation com.fasterxml.jackson.annotation.JsonProperty --key value.com.fasterxml.jackson.annotation.JsonProperty --value "createdBy.com.fasterxml.jackson.annotation.JsonProperty" --valueType String
+Inside String Condition
+org.springframework.roo.classpath.details.annotations.AnnotationMetadataBuilder@5afbee6
+[7m[0ma149088 Updated SRC_MAIN_JAVA/repotest/app/shared/EntityAudit.java
+[7m[0m
+[7m[0mbuzzorfield create --type ~.app.shared.EntityAudit --field_name createdDate --dataType java.sql.Date --Modifier private --annotation javax.persistence.Column --key name.javax.persistence.Column,updatable.javax.persistence.Column --value createdDate,false.javax.persistence.Column --valueType String,boolean
+In first Condition
+keys{i}name.javax.persistence.Column
+keys{i}updatable.javax.persistence.Column
+[7m[0m55a4081 Updated SRC_MAIN_JAVA/repotest/app/shared/EntityAudit.java
+[7m[0mfieldAnnotation create --type ~.app.shared.EntityAudit --field_name createdDate --annotation com.fasterxml.jackson.annotation.JsonProperty --key value.com.fasterxml.jackson.annotation.JsonProperty --value "createdDate.com.fasterxml.jackson.annotation.JsonProperty" --valueType String
+Inside String Condition
+org.springframework.roo.classpath.details.annotations.AnnotationMetadataBuilder@320ab8e2
+[7m[0m8fe207f Updated SRC_MAIN_JAVA/repotest/app/shared/EntityAudit.java
+[7m[0m
+[7m[0mbuzzorfield create --type ~.app.shared.EntityAudit --field_name updatedBy --dataType java.lang.String --Modifier private --annotation javax.persistence.Column --key name.javax.persistence.Column --value updatedBy --valueType String
+In first Condition
+keys{i}name.javax.persistence.Column
+[7m[0md2a1d2c Updated SRC_MAIN_JAVA/repotest/app/shared/EntityAudit.java
+[7m[0m
+[7m[0mfieldAnnotation create --type ~.app.shared.EntityAudit --field_name updatedBy --valueType integer,integer --annotation javax.validation.constraints.Size --key min.javax.validation.constraints.Size,max.javax.validation.constraints.Size --value 0#cfg#64
+Inside Integer Condition
+Inside Integer Condition
+org.springframework.roo.classpath.details.annotations.AnnotationMetadataBuilder@5be1b3fb
+[7m[0mb8f0a1c Updated SRC_MAIN_JAVA/repotest/app/shared/EntityAudit.java
+[7m[0mfieldAnnotation create --type ~.app.shared.EntityAudit --field_name updatedBy --annotation com.fasterxml.jackson.annotation.JsonProperty --key value.com.fasterxml.jackson.annotation.JsonProperty --value "updatedBy.com.fasterxml.jackson.annotation.JsonProperty" --valueType String
+Inside String Condition
+org.springframework.roo.classpath.details.annotations.AnnotationMetadataBuilder@3a9ecb9d
+[7m[0m24deb2f Updated SRC_MAIN_JAVA/repotest/app/shared/EntityAudit.java
+[7m[0m
+[7m[0mbuzzorfield create --type ~.app.shared.EntityAudit --field_name updatedDate --dataType java.sql.Date --Modifier private --annotation javax.persistence.Column --key name.javax.persistence.Column --value updatedDate --valueType String
+In first Condition
+keys{i}name.javax.persistence.Column
+[7m[0m4ce8242 Updated SRC_MAIN_JAVA/repotest/app/shared/EntityAudit.java
+[7m[0mfieldAnnotation create --type ~.app.shared.EntityAudit --field_name updatedDate --annotation com.fasterxml.jackson.annotation.JsonProperty --key value.com.fasterxml.jackson.annotation.JsonProperty --value "updatedDate.com.fasterxml.jackson.annotation.JsonProperty" --valueType String
+Inside String Condition
+org.springframework.roo.classpath.details.annotations.AnnotationMetadataBuilder@6d67e8d4
+[7m[0mc4b4acb Updated SRC_MAIN_JAVA/repotest/app/shared/EntityAudit.java
+[7m[0m
+[7m[0mbuzzorfield create --type ~.app.shared.SystemInfo --field_name activeStatus --dataType java.lang.Integer --Modifier private --annotation javax.persistence.Column --key name.javax.persistence.Column --value activeStatus --valueType String
+In first Condition
+keys{i}name.javax.persistence.Column
+[7m[0m1ecda95 Updated SRC_MAIN_JAVA/repotest/app/shared/SystemInfo.java
+[7m[0mfieldAnnotation create --type ~.app.shared.SystemInfo --field_name activeStatus --annotation com.fasterxml.jackson.annotation.JsonProperty --key value.com.fasterxml.jackson.annotation.JsonProperty --value "activeStatus.com.fasterxml.jackson.annotation.JsonProperty" --valueType String
+Inside String Condition
+org.springframework.roo.classpath.details.annotations.AnnotationMetadataBuilder@21ba659c
+[7m[0mbd6f2d9 Updated SRC_MAIN_JAVA/repotest/app/shared/SystemInfo.java
+[7m[0m
+[7m[0mbuzzorfield create --type ~.app.shared.SystemInfo --field_name txnAccessCode --dataType java.lang.Integer --Modifier private --annotation javax.persistence.Column --key name.javax.persistence.Column --value txnAccessCode --valueType String
+In first Condition
+keys{i}name.javax.persistence.Column
+[7m[0mce158d3 Updated SRC_MAIN_JAVA/repotest/app/shared/SystemInfo.java
+[7m[0mfieldAnnotation create --type ~.app.shared.SystemInfo --field_name txnAccessCode --annotation com.fasterxml.jackson.annotation.JsonProperty --key value.com.fasterxml.jackson.annotation.JsonProperty --value "txnAccessCode.com.fasterxml.jackson.annotation.JsonProperty" --valueType String
+Inside String Condition
+org.springframework.roo.classpath.details.annotations.AnnotationMetadataBuilder@61d561
+[7m[0m985c430 Updated SRC_MAIN_JAVA/repotest/app/shared/SystemInfo.java
+[7m[0m
+[7m[0mmethodoperation type setConstructor --class ~.app.shared.EntityAudit --fields createdDate,updatedDate --initializeValue java.sql.Date(System.currentTimeMillis()),java.sql.Date(System.currentTimeMillis())
+[7m[0mef71313 Updated SRC_MAIN_JAVA/repotest/app/shared/EntityAudit.java
+[7m[0m
+[7m[0mmethodoperation type getSetMethod --class ~.app.shared.EntityAudit --variableName createdBy --getterMethod true --setterMethod true
+java.lang.String
+createdBy
+createdBy
+createdBy
+        return createdBy;
+
+[7m[0m1fc793d Updated SRC_MAIN_JAVA/repotest/app/shared/EntityAudit.java
+[7m[0m
+[7m[0mmethodoperation type getSetMethod --class ~.app.shared.EntityAudit --variableName createdDate --getterMethod true --setterMethod false
+java.sql.Date
+createdDate
+createdDate
+        return createdDate;
+
+[7m[0mb980952 Updated SRC_MAIN_JAVA/repotest/app/shared/EntityAudit.java
+[7m[0m
+[7m[0mmethodoperation type getSetMethod --class ~.app.shared.EntityAudit --variableName updatedBy --getterMethod true --setterMethod true
+java.lang.String
+updatedBy
+updatedBy
+updatedBy
+        return updatedBy;
+
+[7m[0m4c4d6cb Updated SRC_MAIN_JAVA/repotest/app/shared/EntityAudit.java
+[7m[0m
+[7m[0mmethodoperation type getSetMethod --class ~.app.shared.EntityAudit --variableName updatedDate --getterMethod true --setterMethod false
+java.sql.Date
+updatedDate
+updatedDate
+        return updatedDate;
+
+[7m[0mb0d3c59 Updated SRC_MAIN_JAVA/repotest/app/shared/EntityAudit.java
+[7m[0m
+[7m[0mmethodoperation type getSetMethod --class ~.app.shared.SystemInfo --variableName activeStatus --getterMethod true --setterMethod true
+java.lang.Integer
+activeStatus
+activeStatus
+        return activeStatus;
+
+[7m[0mb1b5917 Updated SRC_MAIN_JAVA/repotest/app/shared/SystemInfo.java
+[7m[0m
+[7m[0mmethodoperation type getSetMethod --class ~.app.shared.SystemInfo --variableName txnAccessCode --getterMethod true --setterMethod true
+java.lang.Integer
+txnAccessCode
+txnAccessCode
+        return txnAccessCode;
+
+[7m[0m048599e Updated SRC_MAIN_JAVA/repotest/app/shared/SystemInfo.java
+[7m[0m
+[7m[0mquit
+[7m[0mScript required 11.951 seconds to execute
+[s[1;21H[7m[com.applifire.appsecurity [162]] ServiceEvent UNREGISTERING[0m[u[s[1;21H[K[1;21H[7m[com.applifire.appsecurity [162]] ServiceEvent UNREGISTERING[0m[u[s[1;21H[K[1;21H[7m[com.applifire.appsecurity [162]] ServiceEvent UNREGISTERING[0m[u[s[1;21H[K[1;28H[7m[com.applifire.appsecurity [162]] BundleEvent STOPPED[0m[u[s[1;28H[K[1;22H[7m[com.applifire.ruleengine [161]] ServiceEvent UNREGISTERING[0m[u[s[1;22H[K[1;22H[7m[com.applifire.ruleengine [161]] ServiceEvent UNREGISTERING[0m[u[s[1;22H[K[1;22H[7m[com.applifire.ruleengine [161]] ServiceEvent UNREGISTERING[0m[u[s[1;22H[K[1;29H[7m[com.applifire.ruleengine [161]] BundleEvent STOPPED[0m[u[s[1;29H[K[1;25H[7m[com.applifire.project [160]] ServiceEvent UNREGISTERING[0m[u[s[1;25H[K[1;25H[7m[com.applifire.project [160]] ServiceEvent UNREGISTERING[0m[u[s[1;25H[K[1;32H[7m[com.applifire.project [160]] BundleEvent STOPPED[0m[u[s[1;32H[K[1;17H[7m[com.applifire.methodoperation [159]] ServiceEvent UNREGISTERING[0m[u[s[1;17H[K[1;17H[7m[com.applifire.methodoperation [159]] ServiceEvent UNREGISTERING[0m[u[s[1;17H[K[1;17H[7m[com.applifire.methodoperation [159]] ServiceEvent UNREGISTERING[0m[u[s[1;17H[K[1;24H[7m[com.applifire.methodoperation [159]] BundleEvent STOPPED[0m[u[s[1;24H[K[1;27H[7m[com.applifire.field [158]] ServiceEvent UNREGISTERING[0m[u[s[1;27H[K[1;27H[7m[com.applifire.field [158]] ServiceEvent UNREGISTERING[0m[u[s[1;27H[K[1;27H[7m[com.applifire.field [158]] ServiceEvent UNREGISTERING[0m[u[s[1;27H[K[1;34H[7m[com.applifire.field [158]] BundleEvent STOPPED[0m[u[s[1;34H[K[1;17H[7m[com.applifire.applifiremethod [156]] ServiceEvent UNREGISTERING[0m[u[s[1;17H[K[1;17H[7m[com.applifire.applifiremethod [156]] ServiceEvent UNREGISTERING[0m[u[s[1;17H[K[1;17H[7m[com.applifire.applifiremethod [156]] ServiceEvent UNREGISTERING[0m[u[s[1;17H[K[1;24H[7m[com.applifire.applifiremethod [156]] BundleEvent STOPPED[0m[u[s[1;24H[K[1;18H[7m[com.applifire.applifireclass [155]] ServiceEvent UNREGISTERING[0m[u[s[1;18H[K[1;18H[7m[com.applifire.applifireclass [155]] ServiceEvent UNREGISTERING[0m[u[s[1;18H[K[1;18H[7m[com.applifire.applifireclass [155]] ServiceEvent UNREGISTERING[0m[u[s[1;18H[K[1;25H[7m[com.applifire.applifireclass [155]] BundleEvent STOPPED[0m[u[s[1;25H[K[1;21H[7m[com.applifire.annotations [154]] ServiceEvent UNREGISTERING[0m[u[s[1;21H[K[1;21H[7m[com.applifire.annotations [154]] ServiceEvent UNREGISTERING[0m[u[s[1;21H[K[1;21H[7m[com.applifire.annotations [154]] ServiceEvent UNREGISTERING[0m[u[s[1;21H[K[1;28H[7m[com.applifire.annotations [154]] BundleEvent STOPPED[0m[u[s[1;28H[K[1;15H[7m[com.applifire.persistencewriting [97]] ServiceEvent UNREGISTERING[0m[u[s[1;15H[K[1;15H[7m[com.applifire.persistencewriting [97]] ServiceEvent UNREGISTERING[0m[u[s[1;15H[K[1;22H[7m[com.applifire.persistencewriting [97]] BundleEvent STOPPED[0m[u[s[1;22H[K[1;55H[7m[[82]] BundleEvent STOPPED[0m[u[s[1;55H[K[1;24H[7m[org.springframework.uaa.client [81]] BundleEvent STOPPED[0m[u[s[1;24H[K[1;3H[7m[org.springframework.roo.wrapping.protobuf-java-lite [80]] BundleEvent STOPPED[0m[u[s[1;3H[K[1;10H[7m[org.springframework.roo.wrapping.json-simple [79]] BundleEvent STOPPED[0m[u[s[1;10H[K[1;12H[7m[org.springframework.roo.wrapping.inflector [78]] BundleEvent STOPPED[0m[u[s[1;12H[K[1;16H[7m[org.springframework.roo.wrapping.hapax [77]] BundleEvent STOPPED[0m[u[s[1;16H[K[1;9H[7m[org.springframework.roo.wrapping.bcprov-jdk15 [76]] BundleEvent STOPPED[0m[u[s[1;9H[K[1;11H[7m[org.springframework.roo.wrapping.bcpg-jdk15 [75]] BundleEvent STOPPED[0m[u[s[1;11H[K[1;7H[7m[org.springframework.roo.wrapping.antlr4-runtime [74]] BundleEvent STOPPED[0m[u[s[1;7H[K[1;9H[7m[org.springframework.roo.url.stream.jdk [73]] ServiceEvent UNREGISTERING[0m[u[s[1;9H[K[1;20H[7m[org.springframework.roo.uaa [71]] ServiceEvent UNREGISTERING[0m[u[s[1;20H[K[1;13H[7m[org.springframework.roo.shell.osgi [67]] ServiceEvent UNREGISTERING[0m[u[s[1;13H[K[1;16H[7m[org.springframework.roo.project [63]] ServiceEvent UNREGISTERING[0m[u[s[1;16H[K[1;16H[7m[org.springframework.roo.project [63]] ServiceEvent UNREGISTERING[0m[u[s[1;16H[K[1;14H[7m[org.springframework.roo.classpath [53]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.classpath [53]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.classpath [53]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.classpath [53]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.classpath [53]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.classpath [53]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.classpath [53]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.classpath [53]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.classpath [53]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.classpath [53]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;6H[7m[org.springframework.roo.addon.web.mvc.jsp [51]] ServiceEvent UNREGISTERING[0m[u[s[1;6H[K[1;6H[7m[org.springframework.roo.addon.web.mvc.jsp [51]] ServiceEvent UNREGISTERING[0m[u[s[1;6H[K[1;1H[7m[org.springframework.roo.addon.web.mvc.embedded [50]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;1H[7m[org.springframework.roo.addon.web.mvc.embedded [50]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;1H[7m[org.springframework.roo.addon.web.mvc.embedded [50]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;1H[7m[org.springframework.roo.addon.web.mvc.embedded [50]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;1H[7m[org.springframework.roo.addon.web.mvc.embedded [50]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;1H[7m[org.springframework.roo.addon.web.mvc.embedded [50]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;1H[7m[org.springframework.roo.addon.web.mvc.embedded [50]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;1H[7m[org.springframework.roo.addon.web.mvc.embedded [50]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;9H[7m[org.springframework.roo.addon.web.flow [48]] ServiceEvent UNREGISTERING[0m[u[s[1;9H[K[1;9H[7m[org.springframework.roo.addon.web.flow [48]] ServiceEvent UNREGISTERING[0m[u[s[1;9H[K[1;6H[7m[org.springframework.roo.addon.web.mvc.jsp [51]] ServiceEvent UNREGISTERING[0m[u[s[1;6H[K[1;1H[7m[org.springframework.roo.addon.web.mvc.controller [49]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;1H[7m[org.springframework.roo.addon.web.mvc.controller [49]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;1H[7m[org.springframework.roo.addon.web.mvc.controller [49]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;1H[7m[org.springframework.roo.addon.web.mvc.controller [49]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;1H[7m[org.springframework.roo.addon.web.mvc.controller [49]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;1H[7m[org.springframework.roo.addon.web.mvc.controller [49]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;13H[7m[org.springframework.roo.addon.test [46]] ServiceEvent UNREGISTERING[0m[u[s[1;13H[K[1;1H[7m[org.springframework.roo.addon.layers.repository.mongo [34]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;1H[7m[org.springframework.roo.addon.layers.repository.mongo [34]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;14H[7m[org.springframework.roo.addon.jpa [30]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;13H[7m[org.springframework.roo.addon.dbre [21]] ServiceEvent UNREGISTERING[0m[u[s[1;13H[K[1;13H[7m[org.springframework.roo.addon.test [46]] ServiceEvent UNREGISTERING[0m[u[s[1;13H[K[1;13H[7m[org.springframework.roo.addon.solr [44]] ServiceEvent UNREGISTERING[0m[u[s[1;13H[K[1;13H[7m[org.springframework.roo.addon.solr [44]] ServiceEvent UNREGISTERING[0m[u[s[1;13H[K[1;9H[7m[org.springframework.roo.addon.security [42]] ServiceEvent UNREGISTERING[0m[u[s[1;9H[K[1;9H[7m[org.springframework.roo.addon.security [42]] ServiceEvent UNREGISTERING[0m[u[s[1;9H[K[1;9H[7m[org.springframework.roo.addon.security [42]] ServiceEvent UNREGISTERING[0m[u[s[1;9H[K[1;3H[7m[org.springframework.roo.addon.layers.service [35]] ServiceEvent UNREGISTERING[0m[u[s[1;3H[K[1;3H[7m[org.springframework.roo.addon.layers.service [35]] ServiceEvent UNREGISTERING[0m[u[s[1;3H[K[1;1H[7m[org.springframework.roo.addon.layers.repository.jpa [33]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;1H[7m[org.springframework.roo.addon.layers.repository.jpa [33]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;13H[7m[org.springframework.roo.addon.json [32]] ServiceEvent UNREGISTERING[0m[u[s[1;13H[K[1;13H[7m[org.springframework.roo.addon.json [32]] ServiceEvent UNREGISTERING[0m[u[s[1;13H[K[1;14H[7m[org.springframework.roo.addon.jsf [31]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.addon.jsf [31]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.addon.jpa [30]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.addon.jms [29]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.addon.jms [29]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.addon.gwt [26]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.addon.gwt [26]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.addon.gwt [26]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;11H[7m[org.springframework.roo.addon.finder [25]] ServiceEvent UNREGISTERING[0m[u[s[1;11H[K[1;11H[7m[org.springframework.roo.addon.finder [25]] ServiceEvent UNREGISTERING[0m[u[s[1;11H[K[1;11H[7m[org.springframework.roo.addon.equals [24]] ServiceEvent UNREGISTERING[0m[u[s[1;11H[K[1;11H[7m[org.springframework.roo.addon.equals [24]] ServiceEvent UNREGISTERING[0m[u[s[1;11H[K[1;12H[7m[org.springframework.roo.addon.email [23]] ServiceEvent UNREGISTERING[0m[u[s[1;12H[K[1;12H[7m[org.springframework.roo.addon.email [23]] ServiceEvent UNREGISTERING[0m[u[s[1;12H[K[1;14H[7m[org.springframework.roo.addon.dod [22]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.addon.dod [22]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;13H[7m[org.springframework.roo.addon.dbre [21]] ServiceEvent UNREGISTERING[0m[u[s[1;13H[K[1;14H[7m[org.springframework.roo.classpath [53]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.classpath [53]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.addon.gwt [26]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.addon.gwt [26]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.addon.gwt [26]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.addon.gwt [26]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.addon.gwt [26]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.addon.gwt [26]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.addon.gwt [26]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;1H[7m[org.springframework.roo.classpath.antlrjavaparser [54]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;5H[7m[org.springframework.roo.addon.web.selenium [52]] ServiceEvent UNREGISTERING[0m[u[s[1;5H[K[1;5H[7m[org.springframework.roo.addon.web.selenium [52]] ServiceEvent UNREGISTERING[0m[u[s[1;5H[K[1;13H[7m[org.springframework.roo.addon.solr [44]] ServiceEvent UNREGISTERING[0m[u[s[1;13H[K[1;1H[7m[org.springframework.roo.addon.web.mvc.controller [49]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;1H[7m[org.springframework.roo.addon.web.mvc.controller [49]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;1H[7m[org.springframework.roo.addon.web.mvc.controller [49]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;1H[7m[org.springframework.roo.addon.web.mvc.controller [49]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;1H[7m[org.springframework.roo.addon.web.mvc.controller [49]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;9H[7m[org.springframework.roo.addon.tostring [47]] ServiceEvent UNREGISTERING[0m[u[s[1;9H[K[1;13H[7m[org.springframework.roo.addon.test [46]] ServiceEvent UNREGISTERING[0m[u[s[1;13H[K[1;13H[7m[org.springframework.roo.addon.solr [44]] ServiceEvent UNREGISTERING[0m[u[s[1;13H[K[1;13H[7m[org.springframework.roo.addon.solr [44]] ServiceEvent UNREGISTERING[0m[u[s[1;13H[K[1;14H[7m[org.springframework.roo.addon.jpa [30]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;5H[7m[org.springframework.roo.addon.serializable [43]] ServiceEvent UNREGISTERING[0m[u[s[1;5H[K[1;2H[7m[org.springframework.roo.addon.property.editor [39]] ServiceEvent UNREGISTERING[0m[u[s[1;2H[K[1;14H[7m[org.springframework.roo.addon.jpa [30]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.addon.jpa [30]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;11H[7m[org.springframework.roo.addon.plural [38]] ServiceEvent UNREGISTERING[0m[u[s[1;11H[K[1;3H[7m[org.springframework.roo.addon.layers.service [35]] ServiceEvent UNREGISTERING[0m[u[s[1;3H[K[1;3H[7m[org.springframework.roo.addon.layers.service [35]] ServiceEvent UNREGISTERING[0m[u[s[1;3H[K[1;1H[7m[org.springframework.roo.addon.layers.repository.mongo [34]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;1H[7m[org.springframework.roo.addon.layers.repository.mongo [34]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;1H[7m[org.springframework.roo.addon.layers.repository.jpa [33]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;13H[7m[org.springframework.roo.addon.json [32]] ServiceEvent UNREGISTERING[0m[u[s[1;13H[K[1;14H[7m[org.springframework.roo.addon.jsf [31]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.addon.jsf [31]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.addon.jsf [31]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.addon.jpa [30]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;9H[7m[org.springframework.roo.addon.javabean [27]] ServiceEvent UNREGISTERING[0m[u[s[1;9H[K[1;11H[7m[org.springframework.roo.addon.finder [25]] ServiceEvent UNREGISTERING[0m[u[s[1;11H[K[1;11H[7m[org.springframework.roo.addon.equals [24]] ServiceEvent UNREGISTERING[0m[u[s[1;11H[K[1;14H[7m[org.springframework.roo.addon.dod [22]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;5H[7m[org.springframework.roo.addon.configurable [19]] ServiceEvent UNREGISTERING[0m[u[s[1;5H[K[1;14H[7m[org.springframework.roo.classpath [53]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.classpath [53]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;3H[7m[org.springframework.roo.addon.layers.service [35]] ServiceEvent UNREGISTERING[0m[u[s[1;3H[K[1;3H[7m[org.springframework.roo.addon.layers.service [35]] ServiceEvent UNREGISTERING[0m[u[s[1;3H[K[1;1H[7m[org.springframework.roo.addon.layers.repository.mongo [34]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;1H[7m[org.springframework.roo.addon.layers.repository.mongo [34]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;14H[7m[org.springframework.roo.classpath [53]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;1H[7m[org.springframework.roo.addon.layers.repository.jpa [33]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;1H[7m[org.springframework.roo.addon.layers.repository.jpa [33]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;14H[7m[org.springframework.roo.classpath [53]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;6H[7m[org.springframework.roo.addon.web.mvc.jsp [51]] ServiceEvent UNREGISTERING[0m[u[s[1;6H[K[1;1H[7m[org.springframework.roo.addon.web.mvc.embedded [50]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;1H[7m[org.springframework.roo.addon.web.mvc.embedded [50]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;1H[7m[org.springframework.roo.addon.web.mvc.controller [49]] ServiceEvent UNREGISTERING[0m[u[s[1;1H[K[1;11H[7m[org.springframework.roo.addon.tailor [45]] ServiceEvent UNREGISTERING[0m[u[s[1;11H[K[1;8H[7m[org.springframework.roo.addon.propfiles [40]] ServiceEvent UNREGISTERING[0m[u[s[1;8H[K[1;13H[7m[org.springframework.roo.addon.dbre [21]] ServiceEvent UNREGISTERING[0m[u[s[1;13H[K[1;13H[7m[org.springframework.roo.addon.dbre [21]] ServiceEvent UNREGISTERING[0m[u[s[1;13H[K[1;13H[7m[org.springframework.roo.addon.dbre [21]] ServiceEvent UNREGISTERING[0m[u[s[1;13H[K[1;13H[7m[org.springframework.roo.addon.dbre [21]] ServiceEvent UNREGISTERING[0m[u[s[1;13H[K[1;8H[7m[org.springframework.roo.addon.propfiles [40]] ServiceEvent UNREGISTERING[0m[u[s[1;8H[K[1;10H[7m[org.springframework.roo.addon.logging [36]] ServiceEvent UNREGISTERING[0m[u[s[1;10H[K[1;10H[7m[org.springframework.roo.addon.logging [36]] ServiceEvent UNREGISTERING[0m[u[s[1;10H[K[1;3H[7m[org.springframework.roo.addon.layers.service [35]] ServiceEvent UNREGISTERING[0m[u[s[1;3H[K[1;14H[7m[org.springframework.roo.addon.jpa [30]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;14H[7m[org.springframework.roo.addon.jpa [30]] ServiceEvent UNREGISTERING[0m[u[s[1;14H[K[1;10H[7m[org.springframework.roo.addon.creator [20]] ServiceEvent UNREGISTERING[0m[u[s[1;10H[K[1;10H[7m[org.springframework.roo.addon.creator [20]] ServiceEvent UNREGISTERING[0m[u[s[1;10H[K[1;11H[7m[org.springframework.roo.addon.backup [18]] ServiceEvent UNREGISTERING[0m[u[s[1;11H[K[1;11H[7m[org.springframework.roo.addon.backup [18]] ServiceEvent UNREGISTERING[0m[u[s[1;11H[K[1;16H[7m[org.springframework.roo.project [63]] ServiceEvent UNREGISTERING[0m[u[s[1;16H[K[1;16H[7m[org.springframework.roo.project [63]] ServiceEvent UNREGISTERING[0m[u[s[1;16H[K[1;16H[7m[org.springframework.roo.project [63]] ServiceEvent UNREGISTERING[0m[u[s[1;16H[K[1;16H[7m[org.springframework.roo.project [63]] ServiceEvent UNREGISTERING[0m[u[s[1;16H[K[1;8H[7m[org.springframework.roo.process.manager [62]] ServiceEvent UNREGISTERING[0m[uTotal execution time 24.338 seconds

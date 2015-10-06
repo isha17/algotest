@@ -1,0 +1,60 @@
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2015-10-06 12:06:36
+ development mode --enabled true 
+buzzorproject --topLevelPackage repotest --isRuleEngine true --projectName repotest --sourceCodeLocation /home/isha/applifire/appConfigTemplate/appSourceCode/ --tomcatDeployLocation http://localhost:8080 --tomcatAbsolutePath /Softwares/tomcat/webapps ---userName repotest --password repotest --schema jdbc:mysql://localhost:3306/information_schema --solrhome /home/applifire/workspace/PYNERPYCO6TUBNIUQRJEG/repotestSolr-4.9.0 --isSpringBatch false
+entityManagerFactoryBean add property --name packagesToScan --value repotest.app,com.athena,com.spartan
+Persistent change persistentUnitName --name repotest
+Persistent add property --name eclipselink.dialect --value org.eclipse.persistence.platform.database.MySQLPlatform
+Persistent add property --name javax.persistence.jdbc.url --value jdbc:mysql://localhost:3306/repotest
+Persistent add property --name javax.persistence.jdbc.user --value repotest
+Persistent add property --name javax.persistence.jdbc.password --value repotest
+Persistent add property --name javax.persistence.jdbc.driver --value com.mysql.jdbc.Driver
+buzzproperties BootProperties --PropertyFileName springBoot.properties --key endpoints.jmx.domain --value repotest
+buzzproperties BootProperties --PropertyFileName springBoot.properties --key endpoints.jmx.unique --value true
+buzzproperties BootProperties --PropertyFileName springBoot.properties --key endpoints.shutdown.enabled --value true
+buzzproperties BootProperties --PropertyFileName springBoot.properties --key endpoints.jmx.repotest --value true
+buzzproperties BootProperties --PropertyFileName springBoot.properties --key endpoints.dump.id --value repotestdump
+buzzproperties BootProperties --PropertyFileName springBoot.properties --key endpoints.metrics.id --value repotestmetrics
+buzzproperties BootProperties --PropertyFileName springBoot.properties --key endpoints.shutdown.id --value repotestshutdown
+buzzproperties BootProperties --PropertyFileName springBoot.properties --key endpoints.trace.id --value repotesttrace
+methodAnnotation create --type ~.app.server.businessservice.aspect.BusinessAspect --method_name beforeSaveAdvice --valueType string --annotation org.aspectj.lang.annotation.Before --key value.org.aspectj.lang.annotation.Before --value "execution(* repotest.app.server.repository.*Impl.save(..))"
+methodAnnotation create --type ~.app.server.service.aspect.ServiceAspect --method_name saveOperation --valueType string --annotation org.aspectj.lang.annotation.Pointcut --key value.org.aspectj.lang.annotation.Pointcut --value "execution(* repotest.app.server.service..save*(..))"
+methodAnnotation create --type ~.app.server.service.aspect.ServiceAspect --method_name deleteOperation --valueType string --annotation org.aspectj.lang.annotation.Pointcut --key value.org.aspectj.lang.annotation.Pointcut --value "execution(* repotest.app.server.service..delete*(..))"
+methodAnnotation create --type ~.app.server.service.aspect.ServiceAspect --method_name updateOperation --valueType string --annotation org.aspectj.lang.annotation.Pointcut --key value.org.aspectj.lang.annotation.Pointcut --value "execution(* repotest.app.server.service..update*(..))"
+methodAnnotation create --type ~.app.server.service.aspect.ServiceAspect --method_name allOperation --valueType string --annotation org.aspectj.lang.annotation.Pointcut --key value.org.aspectj.lang.annotation.Pointcut --value "execution(* repotest.app.server.service..*..*(..)) && !within(repotest.app.server.service.sessionmgt.SessionDataMgtService+)"
+methodAnnotation create --type ~.app.server.service.aspect.ServiceAspect --method_name findOperation --valueType string --annotation org.aspectj.lang.annotation.Pointcut --key value.org.aspectj.lang.annotation.Pointcut --value "execution(* repotest.app.server.service..find*(..))"
+methodAnnotation create --type ~.app.server.service.aspect.ServiceAspect --method_name getOperation --valueType string --annotation org.aspectj.lang.annotation.Pointcut --key value.org.aspectj.lang.annotation.Pointcut --value "execution(* repotest.app.server.service..get*(..))"
+methodAnnotation create --type ~.app.server.repository.aspect.RepositoryAspect --method_name saveOperation --valueType string --annotation org.aspectj.lang.annotation.Pointcut --key value.org.aspectj.lang.annotation.Pointcut --value "execution(* repotest.app.server.repository..save*(..))"
+methodAnnotation create --type ~.app.server.repository.aspect.RepositoryAspect --method_name updateOperation --valueType string --annotation org.aspectj.lang.annotation.Pointcut --key value.org.aspectj.lang.annotation.Pointcut --value "execution(* repotest.app.server.repository..update*(..))"
+methodAnnotation create --type ~.app.server.repository.aspect.RepositoryAspect --method_name deleteOperation --valueType string --annotation org.aspectj.lang.annotation.Pointcut --key value.org.aspectj.lang.annotation.Pointcut --value "execution(* repotest.app.server.repository..delete*(..))"
+methodAnnotation create --type ~.app.server.repository.aspect.RepositoryAspect --method_name findOperation --valueType string --annotation org.aspectj.lang.annotation.Pointcut --key value.org.aspectj.lang.annotation.Pointcut --value "execution(* repotest.app.server.repository..find*(..))"
+methodAnnotation create --type ~.app.server.repository.aspect.RepositoryAspect --method_name getOperation --valueType string --annotation org.aspectj.lang.annotation.Pointcut --key value.org.aspectj.lang.annotation.Pointcut --value "execution(* repotest.app.server.repository..get*(..))"
+methodAnnotation create --type ~.app.server.repository.aspect.RepositoryAspect --method_name allOperation --valueType string --annotation org.aspectj.lang.annotation.Pointcut --key value.org.aspectj.lang.annotation.Pointcut --value "execution(* repotest.app.server.repository..*(..))"
+methodAnnotation create --type ~.app.server.businessservice.aspect.BusinessAspect --method_name afterAllMethodCalls --valueType string --annotation org.aspectj.lang.annotation.After --key value.org.aspectj.lang.annotation.After --value "execution(* repotest.app.server.businessservice..*(..))"
+buzzorclass add --className ~.app.shared.EntityAudit --implements java.io.Serializable --value_type  --annotation javax.persistence.Embeddable
+buzzorclass add --className ~.app.shared.SystemInfo --implements java.io.Serializable --value_type  --annotation javax.persistence.Embeddable
+buzzorfield create --type ~.app.shared.EntityAudit --field_name createdBy --dataType java.lang.String --Modifier private --annotation javax.persistence.Column --key name.javax.persistence.Column,updatable.javax.persistence.Column --value createdBy,false.javax.persistence.Column --valueType String,boolean
+fieldAnnotation create --type ~.app.shared.EntityAudit --field_name createdBy --valueType integer,integer --annotation javax.validation.constraints.Size --key min.javax.validation.constraints.Size,max.javax.validation.constraints.Size --value 0#cfg#64
+fieldAnnotation create --type ~.app.shared.EntityAudit --field_name createdBy --annotation com.fasterxml.jackson.annotation.JsonProperty --key value.com.fasterxml.jackson.annotation.JsonProperty --value "createdBy.com.fasterxml.jackson.annotation.JsonProperty" --valueType String
+buzzorfield create --type ~.app.shared.EntityAudit --field_name createdDate --dataType java.sql.Date --Modifier private --annotation javax.persistence.Column --key name.javax.persistence.Column,updatable.javax.persistence.Column --value createdDate,false.javax.persistence.Column --valueType String,boolean
+fieldAnnotation create --type ~.app.shared.EntityAudit --field_name createdDate --annotation com.fasterxml.jackson.annotation.JsonProperty --key value.com.fasterxml.jackson.annotation.JsonProperty --value "createdDate.com.fasterxml.jackson.annotation.JsonProperty" --valueType String
+buzzorfield create --type ~.app.shared.EntityAudit --field_name updatedBy --dataType java.lang.String --Modifier private --annotation javax.persistence.Column --key name.javax.persistence.Column --value updatedBy --valueType String
+fieldAnnotation create --type ~.app.shared.EntityAudit --field_name updatedBy --valueType integer,integer --annotation javax.validation.constraints.Size --key min.javax.validation.constraints.Size,max.javax.validation.constraints.Size --value 0#cfg#64
+fieldAnnotation create --type ~.app.shared.EntityAudit --field_name updatedBy --annotation com.fasterxml.jackson.annotation.JsonProperty --key value.com.fasterxml.jackson.annotation.JsonProperty --value "updatedBy.com.fasterxml.jackson.annotation.JsonProperty" --valueType String
+buzzorfield create --type ~.app.shared.EntityAudit --field_name updatedDate --dataType java.sql.Date --Modifier private --annotation javax.persistence.Column --key name.javax.persistence.Column --value updatedDate --valueType String
+fieldAnnotation create --type ~.app.shared.EntityAudit --field_name updatedDate --annotation com.fasterxml.jackson.annotation.JsonProperty --key value.com.fasterxml.jackson.annotation.JsonProperty --value "updatedDate.com.fasterxml.jackson.annotation.JsonProperty" --valueType String
+buzzorfield create --type ~.app.shared.SystemInfo --field_name activeStatus --dataType java.lang.Integer --Modifier private --annotation javax.persistence.Column --key name.javax.persistence.Column --value activeStatus --valueType String
+fieldAnnotation create --type ~.app.shared.SystemInfo --field_name activeStatus --annotation com.fasterxml.jackson.annotation.JsonProperty --key value.com.fasterxml.jackson.annotation.JsonProperty --value "activeStatus.com.fasterxml.jackson.annotation.JsonProperty" --valueType String
+buzzorfield create --type ~.app.shared.SystemInfo --field_name txnAccessCode --dataType java.lang.Integer --Modifier private --annotation javax.persistence.Column --key name.javax.persistence.Column --value txnAccessCode --valueType String
+fieldAnnotation create --type ~.app.shared.SystemInfo --field_name txnAccessCode --annotation com.fasterxml.jackson.annotation.JsonProperty --key value.com.fasterxml.jackson.annotation.JsonProperty --value "txnAccessCode.com.fasterxml.jackson.annotation.JsonProperty" --valueType String
+methodoperation type setConstructor --class ~.app.shared.EntityAudit --fields createdDate,updatedDate --initializeValue java.sql.Date(System.currentTimeMillis()),java.sql.Date(System.currentTimeMillis())
+methodoperation type getSetMethod --class ~.app.shared.EntityAudit --variableName createdBy --getterMethod true --setterMethod true
+methodoperation type getSetMethod --class ~.app.shared.EntityAudit --variableName createdDate --getterMethod true --setterMethod false
+methodoperation type getSetMethod --class ~.app.shared.EntityAudit --variableName updatedBy --getterMethod true --setterMethod true
+methodoperation type getSetMethod --class ~.app.shared.EntityAudit --variableName updatedDate --getterMethod true --setterMethod false
+methodoperation type getSetMethod --class ~.app.shared.SystemInfo --variableName activeStatus --getterMethod true --setterMethod true
+methodoperation type getSetMethod --class ~.app.shared.SystemInfo --variableName txnAccessCode --getterMethod true --setterMethod true
+quit
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2015-10-06 12:06:55
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2015-10-06 12:06:55
+// script --file repotest.cf
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2015-10-06 12:06:55
